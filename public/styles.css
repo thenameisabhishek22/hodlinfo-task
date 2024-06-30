@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0e0e0e;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #00e6c0;
+}
+
+.conversion {
+    display: flex;
+    align-items: center;
+}
+
+.conversion div {
+    margin-right: 10px;
+}
+
+.conversion button {
+    background-color: #00e6c0;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.price {
+    margin: 20px 0;
+}
+
+.price-info {
+    text-align: center;
+}
+
+.price-value {
+    font-size: 36px;
+    color: #00e6c0;
+}
+
+.percentage {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #1e1e1e;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #2e2e2e;
+}
